@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letter Boxed</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=NYT+Franklin:wght@400;500;700&display=swap" rel="stylesheet">
+
+</head>
+<body style="background-color:hsl(0, 82%, 78%)">
+    <div id="container">
+        <input id="display" readonly>
+        <div id="letterbox">
+            <div id="letters">
+                <button onclick="appendToDisplay('A')">A</button>
+                <button onclick="appendToDisplay('B')">B</button>
+                <button onclick="appendToDisplay('C')">C</button>
+                <button onclick="appendToDisplay('D')">D</button>
+                <button onclick="appendToDisplay('E')">E</button>
+                <button onclick="appendToDisplay('F')">F</button>
+                <button onclick="appendToDisplay('G')">G</button>
+                <button onclick="appendToDisplay('H')">H</button>
+            </div>
+            <div id="actions">
+                <!--<button onclick="appendToDisplay(currentLetter())">c</button> -->
+                <button class="actionButton" onclick="restart()">Restart</button>
+                <button class="actionButton" onclick="deleteLetter()">Delete</button>
+                <button class="actionButton" onclick="enter()">Enter</button>
+            </div>
+        </div>
+    </div>
+    
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
