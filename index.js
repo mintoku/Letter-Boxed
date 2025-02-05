@@ -14,7 +14,7 @@ function deleteLetter() {
 }
 
 // Fetch the file from GitHub using the raw URL
-const fileURL = 'https://raw.githubusercontent.com/jovialow/letterboxed/main/files/english-words.txt';
+const fileURL = 'https://raw.githubusercontent.com/mintoku/Letter-Boxed/refs/heads/main/english-words.txt';
 
 function checkWordInFile(word) {
     // Fetch the file content
