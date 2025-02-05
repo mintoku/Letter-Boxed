@@ -14,7 +14,7 @@ function deleteLetter() {
 }
 
 // Fetch the file from GitHub using the raw URL
-const fileURL = 'https://raw.githubusercontent.com/jovialow/letterboxed/main/files/wordle-allowed-guesses.txt';
+const fileURL = 'https://raw.githubusercontent.com/jovialow/letterboxed/main/files/english-words.txt';
 
 function checkWordInFile(word) {
     // Fetch the file content
